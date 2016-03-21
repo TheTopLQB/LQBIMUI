@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9F8858661C9FC72A003F2120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858651C9FC72A003F2120 /* AppDelegate.swift */; };
-		9F8858681C9FC72A003F2120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858671C9FC72A003F2120 /* ViewController.swift */; };
 		9F88586B1C9FC72A003F2120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8858691C9FC72A003F2120 /* Main.storyboard */; };
 		9F88586D1C9FC72A003F2120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F88586C1C9FC72A003F2120 /* Assets.xcassets */; };
 		9F8858701C9FC72A003F2120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F88586E1C9FC72A003F2120 /* LaunchScreen.storyboard */; };
 		9F88587B1C9FC72A003F2120 /* LQBIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88587A1C9FC72A003F2120 /* LQBIMUITests.swift */; };
 		9F8858861C9FC72A003F2120 /* LQBIMUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858851C9FC72A003F2120 /* LQBIMUIUITests.swift */; };
+		9F8858941C9FC7CF003F2120 /* LQBChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858931C9FC7CF003F2120 /* LQBChatModel.swift */; };
+		9F8858961C9FCA15003F2120 /* LQBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858951C9FCA15003F2120 /* LQBViewController.swift */; };
+		9F8858981C9FCBEB003F2120 /* LQBChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858971C9FCBEB003F2120 /* LQBChatCell.swift */; };
+		9F88589A1C9FCC16003F2120 /* LQBChatCellFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8858991C9FCC16003F2120 /* LQBChatCellFrame.swift */; };
+		9F88589C1C9FCFCB003F2120 /* Public_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88589B1C9FCFCB003F2120 /* Public_Header.swift */; };
+		9F88589E1C9FE10F003F2120 /* LQBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88589D1C9FE10F003F2120 /* LQBInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		9F8858621C9FC72A003F2120 /* LQBIMUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQBIMUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8858651C9FC72A003F2120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F8858671C9FC72A003F2120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F88586A1C9FC72A003F2120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F88586C1C9FC72A003F2120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F88586F1C9FC72A003F2120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		9F8858811C9FC72A003F2120 /* LQBIMUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQBIMUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8858851C9FC72A003F2120 /* LQBIMUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQBIMUIUITests.swift; sourceTree = "<group>"; };
 		9F8858871C9FC72A003F2120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8858931C9FC7CF003F2120 /* LQBChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQBChatModel.swift; sourceTree = "<group>"; };
+		9F8858951C9FCA15003F2120 /* LQBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQBViewController.swift; sourceTree = "<group>"; };
+		9F8858971C9FCBEB003F2120 /* LQBChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQBChatCell.swift; sourceTree = "<group>"; };
+		9F8858991C9FCC16003F2120 /* LQBChatCellFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQBChatCellFrame.swift; sourceTree = "<group>"; };
+		9F88589B1C9FCFCB003F2120 /* Public_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public_Header.swift; sourceTree = "<group>"; };
+		9F88589D1C9FE10F003F2120 /* LQBInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQBInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				9F8858651C9FC72A003F2120 /* AppDelegate.swift */,
-				9F8858671C9FC72A003F2120 /* ViewController.swift */,
+				9F8858931C9FC7CF003F2120 /* LQBChatModel.swift */,
+				9F8858951C9FCA15003F2120 /* LQBViewController.swift */,
+				9F8858971C9FCBEB003F2120 /* LQBChatCell.swift */,
+				9F8858991C9FCC16003F2120 /* LQBChatCellFrame.swift */,
+				9F88589D1C9FE10F003F2120 /* LQBInputView.swift */,
 				9F8858691C9FC72A003F2120 /* Main.storyboard */,
 				9F88586C1C9FC72A003F2120 /* Assets.xcassets */,
+				9F88589B1C9FCFCB003F2120 /* Public_Header.swift */,
 				9F88586E1C9FC72A003F2120 /* LaunchScreen.storyboard */,
 				9F8858711C9FC72A003F2120 /* Info.plist */,
 			);
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8858681C9FC72A003F2120 /* ViewController.swift in Sources */,
+				9F88589A1C9FCC16003F2120 /* LQBChatCellFrame.swift in Sources */,
+				9F88589C1C9FCFCB003F2120 /* Public_Header.swift in Sources */,
+				9F8858941C9FC7CF003F2120 /* LQBChatModel.swift in Sources */,
+				9F88589E1C9FE10F003F2120 /* LQBInputView.swift in Sources */,
 				9F8858661C9FC72A003F2120 /* AppDelegate.swift in Sources */,
+				9F8858961C9FCA15003F2120 /* LQBViewController.swift in Sources */,
+				9F8858981C9FCBEB003F2120 /* LQBChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

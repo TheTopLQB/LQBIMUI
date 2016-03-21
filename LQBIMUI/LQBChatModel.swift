@@ -8,6 +8,21 @@
 
 import UIKit
 
-class LQBChatModel: NSObject {
+enum MessageType : Int{
+    case Text
+    case Image
+    case Voice
+    case Video
+}
 
+enum MessageFrom : Int{
+    case Me
+    case Other
+}
+
+class LQBChatModel: NSObject {
+    var messageType:MessageType?
+    var messageFrom:MessageFrom?
+    var content:String?
+    
 }
